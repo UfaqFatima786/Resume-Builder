@@ -116,8 +116,16 @@ section h2 {
     font-style: italic;
     font-size: 50px;
     font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: 0.3s ease;
+}
+.homeheading:hover {
+    cursor: pointer;
+    color: #1b4297;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
 }
 
 /* Features */
@@ -131,17 +139,17 @@ section h2 {
 
 .feature-card {
     flex: 1 1 300px;
-    background: #a1a6fc;
+    background: #aaaef1;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgb(255, 255, 255);
     text-align: center;
 }
 
-.feature-card {
+.feature-card:hover{
     cursor: pointer;
     flex: 1 1 300px;
-    background: #8c91fd;
+    background: #575dd3;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgb(255, 255, 255);
