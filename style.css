@@ -101,52 +101,63 @@ body {
     color: #ffffff;
 }
 
-section{
+section {
     padding: 80px 8%;
 }
 
-section h2{
+section h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
 }
-.homeheading{
+
+.homeheading {
     color: #2563eb;
     font-style: italic;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
+
 /* Features */
 
-.feature-container{
+.feature-container {
 
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.feature-card{
+.feature-card {
     flex: 1 1 300px;
-    background: #fff;
+    background: #a1a6fc;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
     text-align: center;
 }
 
-/* .feature-card h3{
-    margin-bottom: 15px;
-} */
+.feature-card {
+    cursor: pointer;
+    flex: 1 1 300px;
+    background: #8c91fd;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-align: center;
+}
+
 
 /* How It Works */
 
-.steps-container{
+.steps-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.step{
+.step {
     flex: 1 1 300px;
     text-align: center;
     background: #f8f8f8;
@@ -154,7 +165,7 @@ section h2{
     border-radius: 12px;
 }
 
-.step span{
+.step span {
     width: 60px;
     height: 60px;
     background: #2563eb;
@@ -170,18 +181,18 @@ section h2{
 
 /* Templates */
 
-.template-container{
+.template-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.template-card{
+.template-card {
     flex: 1 1 300px;
     text-align: center;
 }
 
-.template-card img{
+.template-card img {
     width: 100%;
     border-radius: 10px;
 }
@@ -192,33 +203,34 @@ section h2{
 
 /* Testimonials */
 
-.testimonial-container{
+.testimonial-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.testimonial-card{
+.testimonial-card {
     flex: 1 1 300px;
     padding: 25px;
     background: white;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-card h4{
-    margin-top: 15px;
+.testimonial-card h4 {
+    /* margin-top: 15px; */
     color: #2563eb;
 }
 
 /* FAQ */
 
-.faq-item{
+.faq-item {
     background: #f8f8f8;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
 }
+
 /* 
 .faq-item h3{
     margin-bottom: 10px;
@@ -226,20 +238,20 @@ section h2{
 
 /* Responsive */
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    section{
+    section {
         padding: 60px 5%;
     }
 
-    section h2{
+    section h2 {
         font-size: 2rem;
     }
 
     .feature-container,
     .steps-container,
     .template-container,
-    .testimonial-container{
+    .testimonial-container {
         flex-direction: column;
     }
 }
