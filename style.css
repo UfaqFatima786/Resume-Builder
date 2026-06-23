@@ -117,9 +117,10 @@ section h2 {
     font-style: italic;
     font-size: 50px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s ease;
 }
+
 .homeheading:hover {
     text-shadow: rgb(255, 255, 255);
     cursor: pointer;
@@ -127,7 +128,7 @@ section h2 {
     font-style: italic;
     font-size: 50px;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* Features */
@@ -148,7 +149,7 @@ section h2 {
     text-align: center;
 }
 
-.feature-card:hover{
+.feature-card:hover {
     cursor: pointer;
     flex: 1 1 300px;
     background: #575dd3;
@@ -159,18 +160,10 @@ section h2 {
     transition: 0.5s;
 
 }
-.feature-card h3{
-     color: #000000;
-    text-shadow: white;
-    font-style: italic;
-    font-size: 30px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    transition: 0.3s ease;
+
+.feature-card h3 {
+   font-weight: bold;
 }
-
-
-/* How It Works */
 
 .steps-container {
     display: flex;
@@ -185,8 +178,11 @@ section h2 {
     padding: 25px;
     border-radius: 12px;
 }
+
 .step {
     flex: 1 1 300px;
+        text-align: center;
+
     background: #aaaef1;
     padding: 25px;
     border-radius: 12px;
@@ -194,7 +190,7 @@ section h2 {
     text-align: center;
 }
 
-.step:hover{
+.step:hover {
     cursor: pointer;
     flex: 1 1 300px;
     background: #575dd3;
@@ -219,8 +215,9 @@ section h2 {
     font-weight: bold;
     margin-bottom: 15px;
 }
-
-/* Templates */
+.steps-container h3{
+    font-weight: bold;
+}
 
 .template-container {
     display: flex;
@@ -238,26 +235,32 @@ section h2 {
     border-radius: 10px;
 }
 
-/* .template-card h3{
-    margin-top: 10px;
-} */
-
-/* Testimonials */
-
 .testimonial-container {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
 .testimonial-card {
     flex: 1 1 300px;
+    background: #aaaef1;
     padding: 25px;
-    background: white;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-align: center;
 }
 
+.testimonial-card:hover {
+    cursor: pointer;
+    flex: 1 1 300px;
+    background: #575dd3;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.5s;
+
+}
 .testimonial-card h4 {
     /* margin-top: 15px; */
     color: #2563eb;
@@ -271,7 +274,29 @@ section h2 {
     margin-bottom: 15px;
     border-radius: 10px;
 }
+.faq-item {
+     padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    background: #aaaef1;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-align: center;
+}
 
+.faq-item:hover {
+    cursor: pointer;
+    flex: 1 1 300px;
+    background: #575dd3;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.5s;
+
+}
 /* 
 .faq-item h3{
     margin-bottom: 10px;
