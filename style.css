@@ -445,15 +445,17 @@ section h2 {
 }
 
 .why-us h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #060152;
-    margin-bottom: 50px;
-    transition: .3s;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #928aff;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
 }
 
 .why-us h2:hover {
-    color: #958eff;
+    color: #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .features {
@@ -497,14 +499,21 @@ section h2 {
 /* TEAM SECTION */
 .team {
     padding: 80px 20px;
-    background: #f8f9ff;
+    background: #c9d0f7;
 }
 
 .team h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #060152;
-    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #060157;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+}
+
+.team h2:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .team-members {
@@ -525,6 +534,7 @@ section h2 {
 }
 
 .member:hover {
+    cursor: pointer;
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(149, 142, 255, 0.3);
 }
