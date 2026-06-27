@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+
+    background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    right: 100px;
+    border-radius: 5px;
+    border: #fff solid 1px;
+}
+
+
+.navbar {
+    background-color: #9e94f8;
+    box-shadow: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: sticky !important;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    box-shadow: white;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #272626;
+    transform: scale(1.05);
+    font-size: 20px;
+}
+
+
+
+.footer {
+    background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
+    padding-top: 50px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #8375d6;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+.footer-col h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #b0a8f5;
+}
+
+.footer-col p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #b5b0f5;
+    padding-left: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(67, 57, 156, 0.4);
+    font-size: 17px;
+    font-weight: bold;
+    border-top: 2px solid #ffc0cb;
+}
+
