@@ -56,7 +56,7 @@ body {
 }
 
 .template-heading:hover {
-    color: #ffffff;
+    color: #fc0000;
     transform: scale(1.05);
     cursor: pointer;
 }
