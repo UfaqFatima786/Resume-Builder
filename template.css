@@ -45,8 +45,30 @@ body {
     font-size: 20px;
 }
 
+.template-hero{
 
+}
 
+.template-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #928aff;
+    font-style: italic;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+}
+
+.template-heading:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.tem-pra{
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+}
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
     padding-top: 50px;
