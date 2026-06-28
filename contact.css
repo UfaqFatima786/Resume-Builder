@@ -111,24 +111,22 @@ cursor: pointer;
 
 .contact-left h2{
     font-size:2.3rem;
-    color:#0f172a;
+    font-weight: 500;
+    color:#ffffff;
     margin-bottom:20px;
 }
 
 .contact-left p{
-
-    color:#64748b;
-
+    color:#ffffff;
     line-height:1.8;
-
     margin-bottom:30px;
 
 }
 
 .contact-left img{
-
-    width:100%;
-
+    width:450px;
+    height: 450px;
+    border-radius: 50%;
 }
 
 .contact-right{
@@ -185,7 +183,7 @@ cursor: pointer;
     width:90%;
     max-width:1200px;
     margin:100px auto;
-    background:#2563eb;
+    background:#5a0170;
     color:white;
     text-align:center;
     padding:70px 20px;
