@@ -72,7 +72,7 @@ body {
 }
 
 .info-card{
-    background:white;
+    background:rgb(150, 155, 226);
     padding:35px;
     text-align:center;
     border-radius:20px;
@@ -81,7 +81,7 @@ body {
 }
 
 .info-card:hover{
-
+cursor: pointer;
     transform:translateY(-10px);
 
 }
