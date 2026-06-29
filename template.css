@@ -139,7 +139,9 @@ body {
     height: 400px;
     object-fit: cover;    
 }
-
+.resume-img{
+    width:410px;
+}
 .content {
     background: rgb(170, 109, 167);
     padding: 25px;
