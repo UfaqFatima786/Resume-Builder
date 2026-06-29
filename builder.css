@@ -103,7 +103,7 @@ body {
 }
 
 .form-card {
-    background: #e4e3fc;
+    background: #ccf1c4;
     border-radius: 15px;
     padding: 22px;
     margin-bottom: 25px;
@@ -133,7 +133,7 @@ body {
     height: 38px;
     border: none;
     border-radius: 50%;
-    background: #2563eb;
+    background: #137a13;
     color: white;
     font-size: 22px;
     cursor: pointer;
@@ -141,7 +141,7 @@ body {
 }
 
 .title button:hover {
-    background: #1d4ed8;
+    background: #10771e;
     transform: rotate(90deg);
 }
 
@@ -159,7 +159,7 @@ body {
 
 .form-card input:focus,
 .form-card textarea:focus {
-    border-color: #2563eb;
+    border-color: #125f0f;
     box-shadow: 0 0 8px rgba(37, 99, 235, .15);
 }
 
@@ -198,15 +198,6 @@ input[type="file"] {
     transition: .3s;
 }
 
-#downloadBtn {
-    background: #2563eb;
-    color: white;
-}
-
-#downloadBtn:hover {
-    background: #1d4ed8;
-}
-
 #resetBtn {
     background: #e2e8f0;
     color: #1e293b
@@ -222,7 +213,7 @@ input[type="file"] {
 
 .resume-section {
     border-radius: 20px;
-    background: #0370ff;
+    background: #015008;
     padding: 40px;
     overflow-y: auto;
     display: flex;
@@ -235,7 +226,7 @@ input[type="file"] {
 }
 
 .resume-section::-webkit-scrollbar-thumb {
-    background: #2563eb;
+    background: #127217;
     border-radius: 20px;
 }
 
@@ -243,14 +234,14 @@ input[type="file"] {
     border-radius: 20px;
     width: 210mm;
     min-height: 297mm;
-    background: #cbc9eb;
+    background: #caebc9;
     box-shadow: 0 10px 35px rgba(0, 0, 0, .15);
     padding: 45px;
 }
 
 .resume-header {
     text-align: center;
-    border-bottom: 3px solid #2563eb;
+    border-bottom: 3px solid #156e12;
     padding-bottom: 25px;
     margin-bottom: 35px;
 }
@@ -260,19 +251,19 @@ input[type="file"] {
     height: 140px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #2563eb;
+    border: 5px solid #12751b;
     margin-bottom: 20px;
 }
 
 .resume-header h1 {
     font-size: 38px;
     font-style: italic;
-    color: #012763;
+    color: #096301;
     margin-bottom: 8px;
 }
 
 .resume-header h3 {
-    color: #2563eb;
+    color: #197011;
     font-style: italic;
     font-size: 20px;
     font-weight: 500;
@@ -286,7 +277,7 @@ input[type="file"] {
     color: #011d58;
     font-size: 22px;
     margin-bottom: 15px;
-    border-left: 6px solid #2563eb;
+    border-left: 6px solid #127428;
     padding-left: 12px;
 }
 
@@ -307,47 +298,30 @@ input[type="file"] {
 }
 
 .resume-block ul li {
-
     margin-bottom: 8px;
-
-    color: #475569;
-
+    color: #476949;
 }
 
 #previewEducation {
-
     display: flex;
-
     flex-direction: column;
-
     gap: 15px;
-
 }
 
 .education-box {
-
-    border-left: 4px solid #2563eb;
-
+    border-left: 4px solid #0e5818;
     padding-left: 15px;
-
 }
 
 .education-box h4 {
-
     color: #1e293b;
-
     font-size: 18px;
-
 }
 
 .education-box span {
-
     color: #64748b;
-
     display: block;
-
     margin-top: 5px;
-
 }
 
 #previewExperience {
@@ -357,7 +331,7 @@ input[type="file"] {
 }
 
 .experience-box {
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid #127022;
     padding-left: 15px;
 }
 
@@ -367,33 +341,26 @@ input[type="file"] {
 }
 
 .experience-box span {
-
     color: #64748b;
-
     display: block;
-
     margin: 5px 0;
-
 }
 
 .experience-box p {
-
     margin-top: 8px;
-
 }
 
 #previewProjects {
-
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
 .project-box {
-    background: #d1cefd;
+    background: #c8f8d3;
     padding: 15px;
     border-radius: 10px;
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid #116125;
 }
 
 .project-box h4 {
@@ -402,7 +369,7 @@ input[type="file"] {
 }
 
 .project-box p {
-    color: #64748b;
+    color: #b6d2f8;
 }
 
 #previewSkills {
@@ -414,7 +381,7 @@ input[type="file"] {
 }
 
 #previewSkills li {
-    background: #2563eb;
+    background: #147c2e;
     color: #fff;
     padding: 8px 16px;
     border-radius: 30px;
