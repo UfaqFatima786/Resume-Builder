@@ -75,7 +75,7 @@ body {
     --card:#ffffff;
     --bg:#eff6ff;
     --text:#1e293b;
-    --accent:#60a5fa;
+    --accent:#012757;
  display: grid;
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
@@ -88,12 +88,12 @@ body {
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
     height: 200vh;
-    --primary:#1e40af;
+    --primary:#0d5210;
     --secondary:#dbeafe;
-    --card:#ffffff;
-    --bg:#eff6ff;
-    --text:#1e293b;
-    --accent:#3b82f6;
+    --card:#b3fabd;
+    --bg:#aff8b5;
+    --text:#1e3b24;
+    --accent:#005000;
 
 }
 .builder-container.classic,
@@ -102,12 +102,12 @@ body {
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
     height: 200vh;
-    --primary:#8B5E3C;
-    --secondary:#e0b982;
-    --card:#ebca78;
+    --primary:#3b0000;
+    --secondary:#e08282;
+    --card:#fda9a9;
     --bg:#F5EBDD;
-    --text:#4B2E1E;
-    --accent:#B08968;
+    --text:#420000;
+    --accent:#440202;
 
 }
 .builder-container.creative,
@@ -118,10 +118,10 @@ body {
     height: 200vh;
     --primary:#DB2777;
     --secondary:#FCE7F3;
-    --card:#FFF7FB;
+    --card:#a15e80;
     --bg:#FDF2F8;
     --text:#831843;
-    --accent:#EC4899;
+    --accent:#58022d;
 
 }
 
@@ -131,12 +131,12 @@ body {
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
     height: 200vh;
-    --primary:#4B5563;
+    --primary:#363636;
     --secondary:#E5E7EB;
-    --card:#FFFFFF;
+    --card:#858585;
     --bg:#F9FAFB;
     --text:#1F2937;
-    --accent:#9CA3AF;
+    --accent:#1e1f1f;
 
 }
 
@@ -162,7 +162,147 @@ body {
     height: 200vh;
 
 } */
+ /* new css of form */
+ .form-section {
+    background: var(--bg);
+    padding: 30px;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-right: 1px solid var(--secondary);
+}
 
+.form-section::-webkit-scrollbar {
+    width: 8px;
+}
+
+.form-section::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 20px;
+}
+
+.form-section h2 {
+    font-size: 32px;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.form-section > p {
+    color: var(--accent);
+    margin-bottom: 30px;
+}
+
+.form-card {
+    background: var(--card);
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.06);
+}
+
+.form-card h3 {
+    color: var(--text);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.form-card h3 i {
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.title button:hover {
+    background: var(--accent);
+    transform: rotate(90deg);
+}
+
+.form-card input,
+.form-card textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: .3s;
+    background: white;
+    color: var(--text);
+}
+
+.form-card input:focus,
+.form-card textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 8px rgba(37,99,235,.15);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="file"] {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.education-item,
+.experience-item,
+.project-item {
+    margin-bottom: 20px;
+    padding: 18px;
+    border: 1px dashed var(--primary);
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    flex: 1;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+#resetBtn {
+    background: var(--secondary);
+    color: var(--text);
+}
+
+#resetBtn:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.buttons i {
+    margin-right: 8px;
+}
+/* 
 .form-section {
     background: #b3aef5;
     padding: 30px;
@@ -297,7 +437,7 @@ input[type="file"] {
 
 .buttons i {
     margin-right: 8px;
-}
+} */
 
 .resume-section {
     border-radius: 20px;
@@ -336,11 +476,11 @@ input[type="file"] {
 }
 
 .resume.classic {
-    --primary: #8B5E3C;
-    --secondary: #F8F1E7;
-    --text: #4B2E1E;
-    --accent: #B08968;
-    --card: #f1c088;
+    --primary: #470101;
+    --secondary: #fab5b5;
+    --text: #500202;
+    --accent: #500101;
+    --card: #f8acac;
 }
 
 .resume.creative {
