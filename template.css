@@ -151,7 +151,7 @@ body {
 
 .resume-img {
     width: 410px;
-    height: 500px;
+    height: 600px;
 }
 
 .content {
@@ -180,7 +180,7 @@ body {
 .content button{
     margin-top: 15px;
     padding: 12px 30px;
-    background: #c93aed;   /* Purple */
+    background: #5d0174;   /* Purple */
     color: white;
     border: none;
     border-radius: 8px;
@@ -192,7 +192,7 @@ body {
 
 .content button:hover{
     cursor: pointer;
-    background: #46014d;   /* Dark Purple */
+    background: #34003a;   /* Dark Purple */
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }

@@ -117,9 +117,9 @@ body {
     /* background-color: #1d4ed8; */
     height: 200vh;
     --primary:#DB2777;
-    --secondary:#FCE7F3;
-    --card:#a15e80;
-    --bg:#FDF2F8;
+    --secondary:#f1d4e5;
+    --card:#ee9fc6;
+    --bg:#fce1f0;
     --text:#831843;
     --accent:#58022d;
 
@@ -133,10 +133,10 @@ body {
     height: 200vh;
     --primary:#363636;
     --secondary:#E5E7EB;
-    --card:#858585;
-    --bg:#F9FAFB;
-    --text:#1F2937;
-    --accent:#1e1f1f;
+    --card:#cfcaca;
+    --bg:#f1f1f1;
+    --text:#202020;
+    --accent:#000000;
 
 }
 
@@ -477,7 +477,7 @@ input[type="file"] {
 }
 
 .resume.classic {
-    --primary: #470101;
+    --primary: #47012a;
     --secondary: #fab5b5;
     --text: #500202;
     --accent: #500101;
@@ -487,9 +487,9 @@ input[type="file"] {
 .resume.creative {
     --primary: #db2777;
     --secondary: #fce7f3;
-    --text: #4a044e;
-    --accent: #ec4899;
-    --card: #fdf2f8;
+    --text: #3d012b;
+    --accent: #500229;
+    --card:#f0abcd;
 }
 
 .resume.simple {
@@ -497,7 +497,7 @@ input[type="file"] {
     --secondary: #f3f4f6;
     --text: #111827;
     --accent: #000000;
-    --card: #b4b4b4;
+    --card:#cfcaca;
 }
 
 .resume.executive {
