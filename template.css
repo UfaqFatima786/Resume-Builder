@@ -110,6 +110,7 @@ body {
     color: #cbd5e1;
     line-height: 1.8;
 }
+
 .templates {
 
     width: 90%;
@@ -125,7 +126,15 @@ body {
     border-radius: 25px;
     overflow: hidden;
     transition: .4s;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 8px 25px rgb(191, 185, 245);
+}
+.resumecard:hover {
+    cursor: pointer;
+    background: rgb(170, 109, 167);
+    border-radius: 25px;
+    overflow: hidden;
+    transition: .4s;
+    box-shadow: 0 8px 25px rgb(255, 255, 255);
 }
 
 .card:hover {
@@ -137,11 +146,14 @@ body {
 .card img {
     width: 100%;
     height: 400px;
-    object-fit: cover;    
+    object-fit: cover;
 }
-.resume-img{
-    width:410px;
+
+.resume-img {
+    width: 410px;
+    height: 500px;
 }
+
 .content {
     background: rgb(170, 109, 167);
     padding: 25px;
@@ -167,37 +179,28 @@ body {
     padding: 13px 28px;
     border-radius: 40px;
     transition: .3s;
-
+    text-align: center;
 }
 
 .content a:hover {
     background: #1d4ed8;
 }
+
 @media(max-width:768px) {
 
     .hero h1 {
 
         font-size: 2.2rem;
-
     }
 
     .templates {
-
         grid-template-columns: 1fr;
-
     }
 
     .card img {
-
         height: 260px;
-
     }
-
 }
-
-
-
-
 
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);

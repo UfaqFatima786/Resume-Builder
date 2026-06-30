@@ -83,17 +83,12 @@ body {
 .info-card:hover{
 cursor: pointer;
     transform:translateY(-10px);
-
 }
 
 .info-card i{
-
     font-size:35px;
-
     color:#2563eb;
-
     margin-bottom:15px;
-
 }
 
 .info-card h3{
@@ -130,25 +125,16 @@ cursor: pointer;
 }
 
 .contact-right{
-
-    background:white;
-
+    background:rgb(207, 204, 247);
     padding:40px;
-
     border-radius:20px;
-
     box-shadow:0 10px 30px rgba(0,0,0,.08);
-
 }
 
 .contact-right form{
-
     display:flex;
-
     flex-direction:column;
-
     gap:20px;
-
 }
 
 .contact-right input,
@@ -167,7 +153,7 @@ cursor: pointer;
 
 .contact-right button{
     background:#2563eb;
-    color:white;
+    color:rgb(255, 255, 255);
     border:none;
     padding:15px;
     border-radius:10px;
@@ -177,7 +163,8 @@ cursor: pointer;
 }
 
 .contact-right button:hover{
-    background:#1d4ed8;
+    background:#8b8cf3;
+    color: #000;
 }
 .contact-cta{
     width:90%;
