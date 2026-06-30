@@ -76,12 +76,18 @@ body {
     --bg:#eff6ff;
     --text:#1e293b;
     --accent:#60a5fa;
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
 }
 
 .builder-container.professional,
 .resume.professional{
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
     --primary:#1e40af;
     --secondary:#dbeafe;
     --card:#ffffff;
@@ -92,10 +98,13 @@ body {
 }
 .builder-container.classic,
 .resume.classic{
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
     --primary:#8B5E3C;
-    --secondary:#F8F1E7;
-    --card:#FFFDF8;
+    --secondary:#e0b982;
+    --card:#ebca78;
     --bg:#F5EBDD;
     --text:#4B2E1E;
     --accent:#B08968;
@@ -103,7 +112,10 @@ body {
 }
 .builder-container.creative,
 .resume.creative{
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
     --primary:#DB2777;
     --secondary:#FCE7F3;
     --card:#FFF7FB;
@@ -115,7 +127,10 @@ body {
 
 .builder-container.simple,
 .resume.simple{
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
     --primary:#4B5563;
     --secondary:#E5E7EB;
     --card:#FFFFFF;
@@ -127,7 +142,10 @@ body {
 
 .builder-container.executive,
 .resume.executive{
-
+ display: grid;
+    grid-template-columns: 40% 60%;
+    /* background-color: #1d4ed8; */
+    height: 200vh;
     --primary:#0F766E;
     --secondary:#CCFBF1;
     --card:#F0FDFA;
@@ -310,11 +328,11 @@ input[type="file"] {
 }
 
 .resume.professional {
-    --primary: #1e3a8a;
-    --secondary: #dbeafe;
-    --text: #1e293b;
-    --accent: #3b82f6;
-    --card: #eff6ff;
+    --primary: #125301;
+    --secondary: #9cff98;
+    --text: #1c4125;
+    --accent: #3bf64b;
+    --card: #97fd8e;
 }
 
 .resume.classic {
@@ -322,7 +340,7 @@ input[type="file"] {
     --secondary: #F8F1E7;
     --text: #4B2E1E;
     --accent: #B08968;
-    --card: #FFF8F0;
+    --card: #f1c088;
 }
 
 .resume.creative {
@@ -337,16 +355,16 @@ input[type="file"] {
     --primary: #374151;
     --secondary: #f3f4f6;
     --text: #111827;
-    --accent: #6b7280;
-    --card: #ffffff;
+    --accent: #000000;
+    --card: #b4b4b4;
 }
 
 .resume.executive {
-    --primary: #0f766e;
-    --secondary: #ccfbf1;
-    --text: #134e4a;
-    --accent: #14b8a6;
-    --card: #f0fdfa;
+    --primary: #410041;
+    --secondary: #f0ccfb;
+    --text: #3b0f46;
+    --accent: #2c0146;
+    --card: #eb89ff;
 }
 
 /* .resume.modern{
@@ -455,7 +473,7 @@ input[type="file"] {
 
 .resume-block ul li {
     margin-bottom: 8px;
-    color: #4f3852;
+    color: #000000;
 }
 
 #previewEducation {
@@ -502,7 +520,7 @@ input[type="file"] {
 }
 
 .experience-box span {
-    color: #64748b;
+    color: #252525;
     display: block;
     margin: 5px 0;
 }

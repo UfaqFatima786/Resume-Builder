@@ -1,5 +1,13 @@
 
 
+const selectedTemplate = localStorage.getItem("selectedTemplate") || "modern";
+
+const builderContainer = document.querySelector(".builder-container");
+const resume = document.querySelector(".resume");
+
+builderContainer.classList.add(selectedTemplate);
+resume.classList.add(selectedTemplate);
+
 const nameInput = document.getElementById("name");
 const jobInput = document.getElementById("job");
 const emailInput = document.getElementById("email");
