@@ -180,20 +180,21 @@ body {
 .content button{
     margin-top: 15px;
     padding: 12px 30px;
-    background: #7c3aed;   /* Purple */
+    background: #c93aed;   /* Purple */
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .content button:hover{
-    background: #6d28d9;   /* Dark Purple */
+    cursor: pointer;
+    background: #46014d;   /* Dark Purple */
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
 .content a {
     display: inline-block;

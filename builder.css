@@ -70,10 +70,10 @@ body {
 .builder-container.modern,
 .resume.modern{
 
-    --primary:#2563eb;
-    --secondary:#dbeafe;
-    --card:#ffffff;
-    --bg:#eff6ff;
+    --primary:#051a94;
+    --secondary:#1d5db1;
+    --card:#c9c2f5;
+    --bg:#ebebf5;
     --text:#1e293b;
     --accent:#012757;
  display: grid;
@@ -89,9 +89,9 @@ body {
     /* background-color: #1d4ed8; */
     height: 200vh;
     --primary:#0d5210;
-    --secondary:#dbeafe;
+    --secondary:#f1fdef;
     --card:#b3fabd;
-    --bg:#aff8b5;
+    --bg:#e3f7e4;
     --text:#1e3b24;
     --accent:#005000;
 
@@ -463,16 +463,17 @@ input[type="file"] {
     --primary: #2563eb;
     --secondary: #dbeafe;
     --text: #1e293b;
-    --accent: #60a5fa;
-    --card: #eff6ff;
+    --accent: #022249;
+        --card:#c9c2f5;
+
 }
 
 .resume.professional {
     --primary: #125301;
     --secondary: #9cff98;
     --text: #1c4125;
-    --accent: #3bf64b;
-    --card: #97fd8e;
+    --accent: #015708;
+    --card:#b3fabd;
 }
 
 .resume.classic {
