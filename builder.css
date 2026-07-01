@@ -55,10 +55,14 @@ body {
     border-radius: 8px;
 } */
 .btn-resume{
-    background: var(--primary);
+    background: var(--secondary);
     color: white;
     border: none;
     border-radius: 8px;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 12px 35px;
 }
 .btn-resume:hover {
     background: #574BDB;
@@ -121,12 +125,12 @@ body {
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
     height: 200vh;
-    --primary:#DB2777;
+    --primary:#c0db27;
     --secondary:#f1d4e5;
-    --card:#ee9fc6;
-    --bg:#fce1f0;
-    --text:#831843;
-    --accent:#58022d;
+    --card:#faea90;
+    --bg:#f3f8c7;
+    --text:#838118;
+    --accent:#525802;
 
 }
 
@@ -151,12 +155,12 @@ body {
     grid-template-columns: 40% 60%;
     /* background-color: #1d4ed8; */
     height: 200vh;
-    --primary:#0F766E;
-    --secondary:#CCFBF1;
-    --card:#F0FDFA;
-    --bg:#ECFEFF;
-    --text:#134E4A;
-    --accent:#14B8A6;
+    --primary: #410041;
+    --secondary:#fbccf7;
+    --card: #eb89ff;
+    --bg:#fbecff;
+    --text:#38003d;
+    --accent:#4b024b;
 
 }
 /* 
@@ -490,11 +494,11 @@ input[type="file"] {
 }
 
 .resume.creative {
-    --primary: #db2777;
-    --secondary: #fce7f3;
-    --text: #3d012b;
-    --accent: #500229;
-    --card:#f0abcd;
+    --primary:#505e00;
+    --secondary:#ebf1d4;
+    --card:#faea90;
+    --text:#444300;
+    --accent:#303301;
 }
 
 .resume.simple {
