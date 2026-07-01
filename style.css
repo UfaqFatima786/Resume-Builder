@@ -410,19 +410,19 @@ section h2 {
 
 .mission-vision .card {
     flex: 1;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     padding: 35px;
     background: rgb(181, 173, 250);
     border-radius: 20px;
     transition: .4s ease;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgb(1, 22, 61);
 }
 
 .mission-vision .card:hover {
     cursor: pointer;
     transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(59, 56, 104, 0.3);
+    box-shadow: 0 15px 35px rgb(1, 0, 10);
 }
 
 .mission-vision i {
@@ -461,25 +461,28 @@ section h2 {
 }
 
 .why-box {
+    color: #0c0149;
     background: white;
     padding: 30px;
     text-align: center;
     border-radius: 20px;
     transition: .4s ease;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgb(255, 255, 255);
 }
 
 .why-box:hover {
     transform: translateY(-10px);
-    background: #958eff;
-    color: white;
+    background: #a18ef5;
+    color: rgb(0, 0, 0);
+        box-shadow: 0 5px 20px rgb(0, 0, 0);
+
 }
 
 .why-box:hover h3,
 .why-box:hover p,
 .why-box:hover i {
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .why-box i {
@@ -501,13 +504,14 @@ section h2 {
 .team h2 {
     font-size: 3rem;
     font-weight: 600;
-    color: #060157;
+    color: #07026b;
+    text-shadow: #000000;
     margin-bottom: 15px;
     transition: all 0.4s ease;
 }
 
 .team h2:hover {
-    color: #ffffff;
+    color: #000000;
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -620,7 +624,94 @@ section h2 {
 
 }
 
+@media (max-width: 400px) {
+    .container {
+        width: 150px;
+        margin: auto;
+    }
+    .mission-vision .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .mission-vision .card {
+        width: 100px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .mission-vision .card h3 {
+        font-size: 22px;
+    }
+
+    .mission-vision .card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .why-us h2,
+    .team h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .why-box {
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .why-box h3 {
+        font-size: 20px;
+    }
+
+    .why-box p {
+        font-size: 15px;
+    }
+
+    /* Team */
+    .team-members {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .member {
+        width: 100%;
+        text-align: center;
+    }
+
+    .member img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .member h3 {
+        font-size: 22px;
+    }
+
+    .member p {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 320px) {
+     .mission-vision .card {
+        width: 80px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    
+}
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
     padding-top: 50px;
