@@ -1,6 +1,18 @@
 
 
 const selectedTemplate = localStorage.getItem("selectedTemplate") || "modern";
+const templateTitle = document.getElementById("templateTitle");
+
+const templateNames = {
+    modern: "Modern Resume",
+    professional: "Professional Resume",
+    classic: "Classic Resume",
+    creative: "Creative Resume",
+    simple: "Simple Resume",
+    executive: "Executive Resume"
+};
+
+templateTitle.innerText = templateNames[selectedTemplate];
 
 const builderContainer = document.querySelector(".builder-container");
 const resume = document.querySelector(".resume");
