@@ -216,7 +216,31 @@ body {
     background: #1d4ed8;
 }
 
-@media(max-width:768px) {
+@media (max-width: 992px) {
+
+    .resumecard {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto 25px;
+    }
+
+    .resume-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:768px) {
 
     .hero h1 {
 
@@ -230,15 +254,19 @@ body {
     .card img {
         height: 260px;
     }
-}
 
-@media (max-width: 991px) {
+    .resumecard {
+        max-width: 340px;
+        margin: 0 auto 20px;
+    }
 
-    .navbar-collapse {
-        text-align: center;
+    .resume-img {
+        width: 100%;
+        height: auto;
     }
 
 }
+
 
 @media (max-width: 615px) {
 
@@ -260,6 +288,70 @@ body {
 
     .footer-col .social-icons {
         justify-content: center;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .resumecard {
+        max-width: 300px;
+        margin: 0 auto 18px;
+        border-radius: 20px;
+    }
+
+    .resume-img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .temp-img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:400px) {
+
+    .resumecard {
+        max-width: 270px;
+        margin: 0 auto 15px;
+    }
+
+    .resume-img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .template-heading {
+        font-size: 2rem;
+        line-height: 1.3;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:320px) {
+
+    .resumecard {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    .resume-img {
+        width: 100%;
+        height: auto;
     }
 
 }
