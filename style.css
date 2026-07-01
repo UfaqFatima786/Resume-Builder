@@ -558,6 +558,14 @@ section h2 {
     color: #666;
 }
 
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
 @media(max-width:768px) {
     .about-hero h1 {
         font-size: 2.2rem;
@@ -588,6 +596,31 @@ section h2 {
     }
 }
 
+@media (max-width: 615px) {
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-col .social-icons {
+        justify-content: center;
+    }
+
+}
+
+
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
     padding-top: 50px;
@@ -600,7 +633,7 @@ section h2 {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     gap: 40px;
     flex-wrap: wrap;
 }

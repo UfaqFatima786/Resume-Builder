@@ -128,6 +128,7 @@ body {
     transition: .4s;
     box-shadow: 0 8px 25px rgb(191, 185, 245);
 }
+
 .resumecard:hover {
     cursor: pointer;
     background: rgb(170, 109, 167);
@@ -170,17 +171,19 @@ body {
     line-height: 1.7;
     margin-bottom: 25px;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.content button{
+.content button {
     margin-top: 15px;
     padding: 12px 30px;
-    background: #5d0174;   /* Purple */
+    background: #5d0174;
+    /* Purple */
     color: white;
     border: none;
     border-radius: 8px;
@@ -190,12 +193,14 @@ body {
     transition: 0.3s;
 }
 
-.content button:hover{
+.content button:hover {
     cursor: pointer;
-    background: #34003a;   /* Dark Purple */
+    background: #34003a;
+    /* Dark Purple */
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
+
 .content a {
     display: inline-block;
     text-decoration: none;
@@ -227,6 +232,37 @@ body {
     }
 }
 
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 615px) {
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-col .social-icons {
+        justify-content: center;
+    }
+
+}
 
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
