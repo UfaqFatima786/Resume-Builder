@@ -204,6 +204,57 @@ grid-template-columns:1fr;
 font-size:2.2rem;
 }
 }
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+    .supimg {
+        width: 100%;
+        max-width: 280px;
+        display: block;
+        margin: 20px auto;
+        height: auto;
+    }
+    .contact-right form {
+        width: 100%;
+    }
+
+    .contact-right form input,
+    .contact-right form textarea {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    .contact-right form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .info-card {
+        text-align: center;
+        padding: 18px;
+    }
+
+    .info-card h3 {
+        font-size: 18px;
+    }
+
+    .info-card p {
+        font-size: 14px;
+        word-break: break-word;  
+        overflow-wrap: break-word;
+    }
+
+    .info-card i {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+}
 
 .footer {
     background: linear-gradient(135deg, #3f4d9e, #360141, #0e013b);
